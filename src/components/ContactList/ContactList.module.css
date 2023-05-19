@@ -1,0 +1,28 @@
+.list {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-top: 15px;
+   padding: 0;
+}
+
+.item {
+   display: flex;
+   gap: 15px;
+}
+
+.text {
+   font-size: 20px;
+   padding: 0 10px;
+   margin: 0;
+}
+
+.button {
+   font-size: 15px;
+   padding: 0px 8px;
+   border: 1px solid black;
+   border-radius: 5px;
+   background-color: #5472ea47;
+   height: 30px;
+   cursor: pointer;
+}

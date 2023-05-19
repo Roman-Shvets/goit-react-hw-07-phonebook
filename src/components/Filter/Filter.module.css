@@ -1,0 +1,27 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 20px;
+  margin-top: 10px;
+  width: 250px;
+  gap: 10px;
+}
+
+.input {
+  padding-left: 15px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.input:focus {
+  outline: none;
+  border-color: blue;
+}
+
+.title {
+  margin-bottom: 5px;
+  color:black;
+}
